@@ -1,0 +1,30 @@
+      
+      <div class="container pb-4">
+        
+        <!-- Second section -->
+        <section>
+          <h2 class="text-center text-uppercase my-5 pt-5 wow fadeIn" data-wow-delay="0.2s">{{site.data.projects.heading | default: site.data.default.projects_section_heading}} </h2>
+          
+          <p class="text-center w-responsive mx-auto wow fadeIn my-5" data-wow-delay="0.2s">{{site.data.projects.description | default: site.data.default.projects_section_description}} </p>
+          
+          <div class="row justify-content-center">
+            
+            <!--First columnn-->
+            {% assign projects = site.data.projects.projects | default: site.data.default.projects %}
+            {% for project in projects %}
+            {% include projects.html %}
+            {% endfor %}
+            
+          </div>
+          
+          
+          
+        </section>
+        <!-- Second section -->
+        <hr id="contact">
+        
+      </div>
+      
+      
+      <!-- Second container -->
+      

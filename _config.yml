@@ -18,28 +18,28 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Site title
-email: siteemain@mail.com
+title: Vipul Barodiya
+email: sonumeewa@gmail.com
 description: "A personal portfolio and blog website"
 author:
-  twitter: twitter_username
+  twitter: VipulBarodiya
 url: "http://sonumeewa.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter: twitter_username
-github_username:  github_username
+twitter: VipulBarodiya
+github_username:  sonumeewa
 disqus:
- shortname: #your disqus shortname
+ shortname: file-home-sonumeewa-desktop-website-forum-html
 social:
-  name: #name
+  name: Vipul Barodiya
   links:
-    - https://twitter.com/
-    - https://www.facebook.com/
-    - https://www.linkedin.com/
-    - https://github.com/
+    - https://twitter.com/VipulBarodiya
+    - https://www.facebook.com/sonumeewa
+    - https://www.linkedin.com/in/sonumeewa
+    - https://github.com/sonumeewa
 # Build settings
 lang: en-US
 theme: coda-jekyll-theme
-google_analytics: # your google analytics ID
-base_url: "http://username.github.io"
+google_analytics: UA-151721292-1
+base_url: "http://sonumeewa.github.io"
 
 paginate: 10
 paginate_path: "/blog/page:num/"

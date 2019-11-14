@@ -1,49 +1,49 @@
 --- 
-about_section_description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ante nibh, facilisis cursus dolor id, malesuada feugiat tortor. In egestas facilisis mauris. Integer euismod nunc ac ultricies laoreet. Nulla iaculis felis augue, non tincidunt dolor"
+about_section_description: "I'm a prefinal year student pursuing Integrated Post Graduate (B.Tech + M.Tech) course majoring in IT at IIIT Gwalior(ABV-Indian Institute of Information Technology and Management Gwalior). My interest includes Backend Development, Algorithms and Hindi literature. "
 about_section_heading: "About <strong>Me</strong>"
-author_Github: "http://github.com/sonumeewa/coda-jekyll-theme-starter"
-author_description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ante nibh, facilisis cursus dolor id, malesuada feugiat tortor. In egestas facilisis mauris. Integer euismod nunc ac ultricies laoreet. Nulla iaculis felis augue, non tincidunt dolor"
+author_Github: "http://github.com/sonumeewa"
+author_description: "I am a developer, artist, singer, dancer etc."
 author_facebook: "http://facebook.com/sonumeewa"
 author_image_landscape: /assets/img/avatar/1.jpg
 author_image_portrait: /assets/img/avatar/1.jpg
-author_description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ante nibh, facilisis cursus dolor id, malesuada feugiat tortor. In egestas facilisis mauris. Integer euismod nunc ac ultricies laoreet. Nulla iaculis felis augue, non tincidunt dolor"
-author_name: "Coda Jekyll Theme>"
+author_description: "I'm a prefinal year student pursuing Integrated Post Graduate (B.Tech + M.Tech) course majoring in IT. I write about web development and hindi poetry. I'm a fan of hindi-urdu literature and poetry art forms -Ghazals, nazm, poems and more."
+author_name: "Vipul barodiya"
 author_twitter: "http://twitter.com/VipulBarodiya"
 blog_carousel_backgrounds: 
   - 
     image: "https://mdbootstrap.com/img/Photos/Others/city11.jpg"
   - 
     image: "https://mdbootstrap.com/img/Photos/Others/city13.jpg"
-blog_list_description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ante nibh, facilisis cursus dolor id, malesuada feugiat tortor. In egestas facilisis mauris. Integer euismod nunc ac ultricies laoreet. Nulla iaculis felis augue, non tincidunt dolor"
+blog_list_description: "These are not poems and blogs, these are expressions"
 blog_list_heading: "Welcome to my <strong>Blog</strong>"
 blog_list_subheading: "All Blogs"
-category_blog_list_description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ante nibh, facilisis cursus dolor id, malesuada feugiat tortor. In egestas facilisis mauris. Integer euismod nunc ac ultricies laoreet. Nulla iaculis felis augue, non tincidunt dolor"
+category_blog_list_description: ""
 category_blog_list_heading: "Welcome to my <strong>Blog</strong>"
 category_blog_list_subheading: "Category: {{ page.category }}"
 contact_section_card_button_text: Connect
 contact_section_card_button_url: "http://www.linkedin.com/in/sonumeewa"
 contact_section_card_heading: "@<strong>sonumeewa</strong>"
 contact_section_card_image: "https://mdbootstrap.com/img/illustrations/graphics(4).png"
-contact_section_card_description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ante nibh, facilisis cursus dolor id, malesuada feugiat tortor. In egestas facilisis mauris. Integer euismod nunc ac ultricies laoreet. Nulla iaculis felis augue, non tincidunt dolor"
+contact_section_card_description: "I am available as @sonumeewa across all the social media platforms. Mails are the best way to communicate though, you can reach out to me on twitter and linkedin as well. "
 contact_section_heading: "Get in <strong>Touch</strong>"
 copyright_name: Vipul <strong>Barodiya</strong>
-copyright_url: "http://github.com/sonumeewa/coda-jekyll-theme-starter"
+copyright_url: "http://github.com/sonumeewa"
 copyright_year: 2019
 experience: 
   - 
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ante nibh, facilisis cursus dolor id, malesuada feugiat tortor. In egestas facilisis mauris. Integer euismod nunc ac ultricies laoreet. Nulla iaculis felis augue, non tincidunt dolor"
+    description: "Worked with Node.js backend and express REST APis"
     duration: "Feb, 2018 - Oct, 2018 (7 months)"
     title: "Backend developer - Zenedo"
   - 
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ante nibh, facilisis cursus dolor id, malesuada feugiat tortor. In egestas facilisis mauris. Integer euismod nunc ac ultricies laoreet. Nulla iaculis felis augue, non tincidunt dolor"
+    description: "Actively involved in the developers' circle of the IIIT Gwalior"
     duration: "July, 2018 - present"
     title: "Executive member, AASF developers' circle"
   - 
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ante nibh, facilisis cursus dolor id, malesuada feugiat tortor. In egestas facilisis mauris. Integer euismod nunc ac ultricies laoreet. Nulla iaculis felis augue, non tincidunt dolor"
+    description: "Developed Information website for college startup initiative."
     duration: "Aug, 2017 - Oct, 2017 (2 months)"
     title: "Web developer Intern - Shaastra LLP"
   - 
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ante nibh, facilisis cursus dolor id, malesuada feugiat tortor. In egestas facilisis mauris. Integer euismod nunc ac ultricies laoreet. Nulla iaculis felis augue, non tincidunt dolor"
+    description: "Won Nationnal Talent Search Examination scholarship in year 2013"
     duration: "June 2013 - present"
     title: "NTSE scholar"
 main_carousel_avatar: /assets/img/avatar/1.jpg
@@ -109,7 +109,7 @@ navbar_navitems:
     type: dropdown
 professions: 
   - 
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ante nibh, facilisis cursus dolor id, malesuada feugiat tortor. In egestas facilisis mauris. Integer euismod nunc ac ultricies laoreet. Nulla iaculis felis augue, non tincidunt dolor"
+    description: "All episodes of the same TV show in one sitting"
     icon: fas fa-laptop white-text
     color:  aqua-gradient
     text_color: white-text
@@ -117,11 +117,11 @@ professions:
   - 
     icon: fas fa-code white-text
     color: unique-color-dark
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ante nibh, facilisis cursus dolor id, malesuada feugiat tortor. In egestas facilisis mauris. Integer euismod nunc ac ultricies laoreet. Nulla iaculis felis augue, non tincidunt dolor"
+    description: Developing web apps and APIs and much more.
     text_color: white-text
     name: Developer
   - 
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ante nibh, facilisis cursus dolor id, malesuada feugiat tortor. In egestas facilisis mauris. Integer euismod nunc ac ultricies laoreet. Nulla iaculis felis augue, non tincidunt dolor"
+    description: "Always on Twitter, tweeting about politics, tech and everything."
     icon: fab fa-twitter white-text
     name: Social
     color:  blue-gradient
@@ -129,11 +129,11 @@ professions:
   - 
     icon: fas fa-book white-text
     color: purple-gradient
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ante nibh, facilisis cursus dolor id, malesuada feugiat tortor. In egestas facilisis mauris. Integer euismod nunc ac ultricies laoreet. Nulla iaculis felis augue, non tincidunt dolor"
+    description: Love to read the hindi classics as well as modern hindi literature.
     text_color: white-text
     name: Reader
   - 
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ante nibh, facilisis cursus dolor id, malesuada feugiat tortor. In egestas facilisis mauris. Integer euismod nunc ac ultricies laoreet. Nulla iaculis felis augue, non tincidunt dolor"
+    description: "Wriing within the meter, in mothertounge Hindi"
     icon: fas fa-pencil-alt white-text
     name: Free Verser
     color: peach-gradient 
@@ -142,14 +142,14 @@ projects:
   - 
     button_text: Github
     button_url: "http://github.com/mathewsachin/BTP"
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ante nibh, facilisis cursus dolor id, malesuada feugiat tortor. In egestas facilisis mauris. Integer euismod nunc ac ultricies laoreet. Nulla iaculis felis augue, non tincidunt dolor"
+    description: "Recognition of footsteps for biometric ID based on the differential pressure signature obtained on a piezoelectric sensor plate."
     image: "https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg"
     name: "Footstep recognition using Deep learning models"
     url: "https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg"
   - 
     button_text: Github
-    button_url: "http://github.com/sonumeewa/coda-jekyll-theme-starter"
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ante nibh, facilisis cursus dolor id, malesuada feugiat tortor. In egestas facilisis mauris. Integer euismod nunc ac ultricies laoreet. Nulla iaculis felis augue, non tincidunt dolor"
+    button_url: "http://github.com/sonumeewa"
+    description: "Developed <strong>Node.js</strong> backend for a full fledged Web application, for the task of automation of work in Ad agencies."
     image: "https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg"
     name: "Web Application (Ad Agency Manager)"
     url: "https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg"
@@ -157,32 +157,32 @@ projects:
   - 
     button_text: Github
     button_url: "http://rubygems.org/coda-jekyll-theme"
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ante nibh, facilisis cursus dolor id, malesuada feugiat tortor. In egestas facilisis mauris. Integer euismod nunc ac ultricies laoreet. Nulla iaculis felis augue, non tincidunt dolor"
+    description: "Developed a gem based boilerplate theme to quickstart portfolio-blog sites for developers using jekyll. This site uses the same coda-jekyll-theme gem."
     image: "https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg"
     name: "Coda-jekyll-theme"
     url: "https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg"
   - 
     button_text: Github
     button_url: "http://github.com/alien-invasion/"
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ante nibh, facilisis cursus dolor id, malesuada feugiat tortor. In egestas facilisis mauris. Integer euismod nunc ac ultricies laoreet. Nulla iaculis felis augue, non tincidunt dolor"
+    description: "A simplistic 2D game with basic controls and levels developed using pygame framework, while learning python."
     image: "https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg"
     name: "Alien Invasion"
     url: "https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg"
   - 
     button_text: Github
-    button_url: "http://github.com/sonumeewa/coda-jekyll-theme-starter"
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ante nibh, facilisis cursus dolor id, malesuada feugiat tortor. In egestas facilisis mauris. Integer euismod nunc ac ultricies laoreet. Nulla iaculis felis augue, non tincidunt dolor"
+    button_url: "http://github.com/sonumeewa"
+    description: "An online compiler and judge to run variuos source code files. Multiple language support includes C++, python, JAVA, php and Javascript"
     image: "https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg"
     name: "Online Compiler"
     url: "https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg"
   - 
     button_text: Github
-    button_url: "http://github.com/sonumeewa/coda-jekyll-theme-starter"
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ante nibh, facilisis cursus dolor id, malesuada feugiat tortor. In egestas facilisis mauris. Integer euismod nunc ac ultricies laoreet. Nulla iaculis felis augue, non tincidunt dolor"
+    button_url: "http://github.com/sonumeewa/newsfeed/"
+    description: "An android app using JAVA, to fetch and summarise latest news from various global news agencies in one place."
     image: "https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg"
     name: "NewsFeed"
     url: "https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg"
-projects_section_description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ante nibh, facilisis cursus dolor id, malesuada feugiat tortor. In egestas facilisis mauris. Integer euismod nunc ac ultricies laoreet. Nulla iaculis felis augue, non tincidunt dolor"
+projects_section_description: "You will learn more from your failures than your successes - so embrace those mistakes, as difficult as that sounds, and grow from them. When a project is successful, you're never really sure why, because so many elements come into play. However, when you fail, you always know why. That is how you learn and grow.
  - Lynda Resnick"
 projects_section_heading: "My <strong>Projects</strong>"
 skills: 
@@ -210,7 +210,7 @@ skills:
     
 tag_blog_list_heading: "Welcome to my <strong>Blog</strong>"
 tag_blog_list_subheading: "Tag: {{ page.tag }}"
-tag_blog_list_description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ante nibh, facilisis cursus dolor id, malesuada feugiat tortor. In egestas facilisis mauris. Integer euismod nunc ac ultricies laoreet. Nulla iaculis felis augue, non tincidunt dolor"
+tag_blog_list_description: ""
 socials:
 - link: https://www.facebook.com/sonumeewa
   name: facebook
@@ -218,7 +218,7 @@ socials:
   name: github
 - link: https://www.twitter.com/VipulBarodiya
   name: twitter
-- link: https://www.instagram.com/VipulBarodiya
+- link: https://www.instagram.com/VipulBarodiya1
   name: instagram
 - link: https://www.codepen.io/sonumeewa
   name: codepen

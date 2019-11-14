@@ -1,0 +1,201 @@
+---
+layout: default
+---
+
+
+<main>
+    
+    <!-- Intro -->
+    
+    <!-- Intro -->
+    
+    <section>
+        <div class="container-fluid">
+            <h1 class="text-center dark-grey-text pb-3 mt-5 pt-5">
+                {{ post.title | default: site.data.default.post_section_heading }}</h1>
+                
+                <p class="grey-text text-center mb-4 text-uppercase spacing">{{ post.subheading | default: site.data.default.post_section_subheading }} </p>
+                
+                <!-- Grid row -->
+                <div class="row flex-center">
+                    
+                    <!-- Grid column -->
+                    <div class="col-md-10 col-xl-5">
+                        
+                        <p class="grey-text text-center">
+                            <em>{{ post.description | default: site.data.default.post_section_description }}</em>
+                        </p>
+                        
+                    </div>
+                    <!-- Grid column -->
+                    
+                </div>
+                <!-- Grid row -->
+                
+            </div>
+        </section>
+        
+        <!-- Blog section -->
+        <section>
+            <div class="container-fluid grey lighten-4">
+                <hr class="my-5">
+                <div class="container">
+                    
+                    <!-- Blog -->
+                    <div class="row mt-5 pt-3">
+                        
+                        <!-- Main listing -->
+                        <div class="col-lg-8 col-12 mt-1 mx-lg-4">
+                            
+                            <!-- Section: Blog v.3 -->
+                            <section class="pb-5 text-lg-left">
+                                
+                                <!-- Grid row -->
+                                <div class="row mb-4">
+                                    
+                                    <!-- Grid column -->
+                                    <div class="col-md-12">
+                                        
+                                        <!-- Card -->
+                                        <div class="card">
+                                            
+                                            <!-- Card image -->
+                                            <div class="view overlay">
+                                                <img src="{{ page.image }}" class="img-fluid" alt="">
+                                                <a>
+                                                    <div class="mask rgba-white-slight"></div>
+                                                </a>
+                                            </div>
+                                            <!-- Card image -->
+                                            
+                                            <!-- Card content -->
+                                            <div class="card-body">
+                                                <!-- Title -->
+                                                <h4 class="card-title">
+                                                    <strong>{{page.title }}</strong>
+                                                </h4>
+                                                <hr>
+                                                <!-- Text -->
+                                                <div class="row p-4 m-2">
+                                                    {{ content }}
+
+                                                </div>
+                                                <hr>
+                                                {% if site.disqus.shortname %}
+                                                {% include disqus_comments.html %}
+                                                {% endif %}
+                                                <!-- Grid row -->
+                                                <div class="row mb-4">
+                                                    
+                                                    <!-- Grid column -->
+                                                    <div class="col-md-12 text-center">
+                                                        
+                                                        <h4 class="text-center font-weight-bold dark-grey-text mt-3 mb-3">
+                                                            <strong>Share this post: </strong>
+                                                        </h4>
+                                                        
+                                                        <button type="button" class="btn btn-fb btn-sm">
+                                                            <i class="fab fa-facebook-f left"></i> Facebook</button>
+                                                            <!-- Twitter -->
+                                                            <button type="button" class="btn btn-tw btn-sm">
+                                                                <i class="fab fa-twitter left"></i> Twitter</button>
+                                                                <!-- Google + -->
+                                                                <button type="button" class="btn btn-gplus btn-sm">
+                                                                    <i class="fab fa-google-plus-g left"></i> Google +</button>
+                                                                    
+                                                                </div>
+                                                                <!-- Grid column -->
+                                                                
+                                                            </div>
+                                                            <!-- Grid row -->
+                                                            
+                                                        </div>
+                                                        <!-- Card content -->
+                                                        
+                                                    </div>
+                                                    <!-- Card -->
+                                                    
+                                                </div>
+                                                <!-- Grid column -->
+                                                
+                                            </div>
+                                            <!-- Grid row -->
+                                        </section>
+                                        <!-- Section: Blog v.3 -->
+                                        
+                                    </div>
+                                    <!-- Main listing -->
+                                    
+                                    <!-- Sidebar -->
+                                    <div class="col-lg-3 col-12 mt-1">
+                                        
+                                        {% include blog/author.html %}
+                                        
+                                        {% include blog/relatedpost.html %}
+                                        <!--  Section: Featured posts -->
+                                        
+
+                                        
+                                    </div>
+                                    <!-- Sidebar -->
+                                    
+                                </div>
+                                <!-- Blog -->
+                                
+                            </div>
+                            
+                        </section>
+                        <!-- Blog section -->
+                        
+                        <!-- Latest posts -->
+                        <section>
+                            <div class="container-fluid white mb-0 pb-0">
+                                <hr class="mt-0">
+                                <div class="container">
+                                    
+                                    <!-- Grid row -->
+                                    <div class="row">
+                                        
+                                        <!-- Grid column -->
+                                        <div class="col-lg-4 col-md-12">
+                                            <h6 class="font-weight-bold mt-5 mb-3">ABOUT</h6>
+                                            <hr class="mb-5">
+                                            <img src="{{ site.data.blog.author.image_portrait | default: site.data.default.author_image_portrait}}" alt="sample image"
+                                            class="img-fluid z-depth-1">
+                                            <p class="mt-4 mb-5">{{site.data.blog.author.description | default: site.data.default.author_description}}</p>
+                                        </div>
+                                        <!-- Grid column -->
+                                        <!-- Grid column -->
+                                        <div class="col-lg-4 col-md-6">
+                                            <h6 class="font-weight-bold mt-5 mb-3">LATESTS POSTS</h6>
+                                            <hr class="mb-5">
+                                            <!-- Grid row -->
+                                            {% for post in site.posts reversed limit:3 %}
+                                            
+                                            {% include blog/post-list-row-2.html %}
+                                            <!-- Grid row -->
+                                            {% endfor %}       
+                                        </div>
+                                        <div class="col-lg-4 col-md-6">
+                                            <h6 class="font-weight-bold mt-5 mb-3">OLDER POSTS</h6>
+                                            <hr class="mb-5">
+                                            <!-- Grid row -->
+                                            {% for post in site.posts  limit:3 %}
+                                            
+                                            {% include blog/post-list-row-2.html %}
+                                            <!-- Grid row -->
+                                            {% endfor %}       
+                                        </div>
+                                        <!-- Grid column -->
+                                    </div>
+                                    <!-- Grid row -->
+                                    
+                                </div>
+                            </div>
+                        </section>
+                        <!-- Latest posts -->
+                        
+                    </main>
+                    
+                    
+                    

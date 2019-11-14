@@ -1,0 +1,87 @@
+<!-- Second container -->
+<div class="container" style="background-color: #f5f5f5;">
+  
+  <div class="container pt-4">
+    
+    <!-- Second section -->
+    <section id="skills">
+      
+      <!-- First row -->
+      <div class="row py-5">
+        
+        <!-- First column -->
+        <div class="col-lg-6 col-md-12 mb-3 wow fadeIn" data-wow-delay="0.4s">
+          
+          <!-- Section heading -->
+          <div class="d-flex justify-content-start">
+            
+            <h4 class="text-center text-uppercase mb-5 pb-3 mt-4 wow fadeIn" data-wow-delay="0.2s">My
+              <strong>experience</strong></h4>
+              
+            </div>
+            
+            <!-- Description -->
+            {% assign experiences = site.data.about.experience | default : site.data.default.experience %}
+
+            {% for item in experiences %}
+            <blockquote class="blockquote bq-primary mb-4">
+              
+              <div class="row"> <i class="fas fa-briefcase fa-x mb-1 mr-3 ml-3" aria-hidden="true"></i>
+                
+                <h5 class="font-weight-bold mb-3">{{ item.title }}</h5>
+                
+              </div>
+              
+              <p class="font-weight-bold ml-1 dark-grey-text mb-2">{{item.duration}}</p>
+              
+              <p class="mb-0 ml-1 light-grey-text">{{ item.description }}</p>
+              
+            </blockquote>
+            {% endfor %}
+            
+          </div>
+          <!-- First column -->
+          
+          <!-- Second column -->
+          <div class="col-lg-5 offset-lg-1 col-md-12 mb-4 wow fadeIn" data-wow-delay="0.4s">
+            
+            <!-- Second heading -->
+            <div class="d-flex justify-content-start">
+              
+              <h4 class="text-center text-uppercase mb-5 pb-3 mt-4 wow fadeIn" data-wow-delay="0.2s">Development
+                <strong>Skills</strong></h4>
+                
+              </div>
+              {% if site.data.about.skills %}
+              {% assign skills = site.data.about.skills %}
+              {% else %}
+              {% assign skills = site.data.default.skills %}
+              {% endif %}
+              
+              {% for skill in skills %}
+              <!-- Description -->
+              <p class="black-text text-uppercase font-weight-bold" align="justify">{{skill.name}}</p>
+              
+              <div class="md-progress">
+                
+                <div class="progress-bar cyan" role="progressbar" style="width: 90%" aria-valuenow="{{skill.percentage}}" aria-valuemin="0"
+                aria-valuemax="100"></div>
+                
+              </div>
+              {% endfor %}
+              
+              
+            </div>
+            <!-- Second column -->
+            
+          </div>
+          <!-- First row -->
+          
+        </section>
+        <!-- Second section -->
+        
+      </div>
+      <hr id="projects">
+    </div>
+    <!-- Second container -->
+    
